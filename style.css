@@ -1,0 +1,45 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.orange-box {
+    height: 33.33%;
+    background-color: #FF5733;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-box h1, .green-box h1 {
+    font-size: 72px;
+    font-family: 'Segoe UI', sans-serif;
+    text-shadow: 0 3px 3px #777;
+    color:#fff;
+    text-align: center;
+}
+
+.white-box {
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+}
+
+.white-box img {
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.green-box {
+    height: 33.33%;
+    background-color: rgb(3, 120, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
